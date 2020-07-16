@@ -29,7 +29,7 @@ const Camera = ({navigation}) => {
         <Left>
           <Button
             transparent
-            onPress={() => navigation.navigate('Home', {name: 'Jane'})}>
+            onPress={() => navigation.navigate('Home', {barCodeLink: ''})}>
             <Icon name="left" type="AntDesign"></Icon>
           </Button>
         </Left>
