@@ -13,3 +13,6 @@ Guidline
 ![Screenshot](/screenshots/screenshot1.png)
 ![Screenshot](/screenshots/screenshot2.png)
 ![Screenshot](/screenshots/screenshot3.png)
+
+https://www.loom.com/share/0512be15d3bc4c998c11cbd57064cdc7
+https://github.com/RisingStar-Web/QRScanner

@@ -44,16 +44,16 @@ const TableComponent = ({removeItem, tableData, tableHead, navigation}) => {
     </Table>
   );
 };
+
 const styles = StyleSheet.create({
   head: {height: 40, backgroundColor: '#3f51b5'},
   headText: {margin: 6, textAlign: 'center', color: '#fff', fontSize: 20},
   row: {flexDirection: 'row', backgroundColor: '#fff', borderColor: '#000'},
   removeBtn: {
-    width: '95%',
+    width: '100%',
     height: 34,
     backgroundColor: '#ff0000',
     borderRadius: 2,
-    margin: 5,
   },
   btnText: {
     color: '#fff',
@@ -61,4 +61,5 @@ const styles = StyleSheet.create({
   },
   linkText: {margin: 6, textAlign: 'center', fontSize: 17},
 });
+
 export default TableComponent;

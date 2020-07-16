@@ -24,10 +24,8 @@ const Home = ({navigation, route}) => {
   }, [route.params]);
 
   useEffect(() => {
-    console.log('barCodeLink Updated -------------------');
     if (barCodeLink) {
       setTableData([...tableData, [barCodeLink, '']]);
-      // setBarCodeLink('');
     }
   }, [barCodeLink]);
 
@@ -38,7 +36,7 @@ const Home = ({navigation, route}) => {
     <Container>
       <Header>
         <Left>
-          <Button>
+          <Button transparent>
             <Icon name="home" type="AntDesign"></Icon>
           </Button>
         </Left>

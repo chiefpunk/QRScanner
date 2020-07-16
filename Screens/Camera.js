@@ -8,7 +8,6 @@ import {
   Right,
   Body,
   Button,
-  Text,
   Title,
   Icon,
 } from 'native-base';
@@ -17,10 +16,8 @@ const Camera = ({navigation}) => {
   const camRef = useRef('');
   const barcodeRecognized = ({barcodes}) => {
     barcodes.forEach((barcode) =>
-      // (barcode) => alert(barcode.data),
       navigation.navigate('Home', {barCodeLink: barcode.data}),
     );
-    // alert(barcodes.data);
   };
 
   return (
@@ -50,9 +47,6 @@ const styles = StyleSheet.create({
   fullWidth: {
     flex: 1,
     width: '100%',
-  },
-  mt3: {
-    marginTop: 3,
   },
 });
 export default Camera;
