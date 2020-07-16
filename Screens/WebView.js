@@ -32,7 +32,6 @@ const WebViewComponent = ({navigation, route}) => {
         source={{
           uri: link,
         }}
-        style={{marginTop: 20}}
       />
     </Container>
   );
